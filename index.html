@@ -1,53 +1,81 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <link rel="stylesheet" href="styles.css">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studiematen - Bijles en Ondersteuning</title>
+    <title>Bijles Platform</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <img src="logo.png" alt="Studiematen Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#about">Over Ons</a></li>
-                    <li><a href="#services">Diensten</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <h1 class="logo">Bijles Platform</h1>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <div class="dropdown">
+                    <a href="#diensten" class="dropdown-toggle">Diensten</a>
+                    <div class="dropdown-menu">
+                        <a href="examencoaching.html">Examencoaching</a>
+                        <a href="bijles.html">Algemene Bijles</a>
+                    </div>
+                </div>
+                <a href="hoe-werkt-het.html">Hoe Werkt Het?</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
-    
-    <main>
-        <section id="hero">
-            <h1>Welkom bij Studiematen</h1>
-            <p>Persoonlijke bijles en studiebegeleiding op maat.</p>
-            <a href="#contact" class="btn">Neem Contact Op</a>
-        </section>
 
-        <section id="about" class="container">
-            <h2>Over Studiematen</h2>
-            <p>Bij Studiematen geloven we in de kracht van persoonlijke aandacht en maatwerk om het beste uit elke student te halen.</p>
-        </section>
-
-        <section id="services" class="container">
-            <h2>Onze Diensten</h2>
-            <ul>
-                <li>Bijles in diverse vakken</li>
-                <li>Studieplanning en motivatie</li>
-                <li>Examentraining</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
+    <section class="hero" id="home">
         <div class="container">
-            <p>&copy; 2024 Studiematen. Alle rechten voorbehouden.</p>
-            <p>Contact: info@studiematen.nl</p>
+            <h2>Verbeter je vaardigheden met persoonlijke bijlessen!</h2>
+            <p>Professionele begeleiding in wiskunde, talen, en meer. Ontdek hoe wij je kunnen helpen jouw doelen te bereiken.</p>
+            <a href="contact.html" class="cta-button">Neem Contact Op</a>
+        </div>
+    </section>
+
+    <section class="services homepage-services" id="diensten">
+        <div class="container">
+            <h2>Onze Diensten</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Algemene Bijles</h3>
+                    <p>Krijg begeleiding op maat voor elk vak dat je moeilijk vindt.</p>
+                    <a href="bijles.html" class="cta-button">Lees meer</a>
+                </div>
+                <div class="card">
+                    <h3>Examencoaching</h3>
+                    <p>Bereid je optimaal voor op je examens met gerichte coaching.</p>
+                    <a href="examencoaching.html" class="cta-button">Lees meer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Hoe Werkt Het?</h2>
+            <p>Bij Bijles Platform draait alles om flexibiliteit en maatwerk. We zorgen ervoor dat je de begeleiding krijgt die je nodig hebt op een manier die het beste voor jou werkt.</p>
+
+            <h3>Het Proces in Stappen</h3>
+            <ol>
+                <li><strong>Bestelling Plaatsen:</strong> Je begint met het plaatsen van een bestelling voor bijles of examencoaching.</li>
+                <li><strong>Toewijzing van Begeleider:</strong> Je wordt gekoppeld aan een geschikte begeleider.</li>
+                <li><strong>Contact en Afstemming:</strong> De begeleider neemt contact met je op om tijden af te stemmen.</li>
+                <li><strong>Teams Meeting:</strong> Je krijgt persoonlijke begeleiding via een Teams-meeting.</li>
+                <li><strong>Volgen van Vooruitgang:</strong> Blijf doorgaan met sessies op basis van je voortgang!</li>
+            </ol>
+
+            <h3>Waarom Bijles Platform?</h3>
+            <p>Wij bieden persoonlijke begeleiding die volledig is afgestemd op jouw behoeften. Flexibel, op maat, en altijd via een veilige online omgeving.</p>
+
+            <a href="contact.html" class="cta-button">Neem Contact Op</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Neem contact met ons op via <a href="mailto:info@bijlesplatform.nl">info@bijlesplatform.nl</a></p>
+            <p>&copy; 2024 Bijles Platform. Alle rechten voorbehouden.</p>
         </div>
     </footer>
 </body>

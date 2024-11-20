@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Bijles Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Bijles Platform</h1>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="#diensten" class="dropdown-toggle">Diensten</a>
+                    <div class="dropdown-menu">
+                        <a href="examencoaching.html">Examencoaching</a>
+                        <a href="bijles.html">Algemene Bijles</a>
+                    </div>
+                </div>
+                <a href="hoe-werkt-het.html">Hoe Werkt Het?</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Heb je een vraag of wil je meer informatie? Neem gerust contact met ons op.</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2>Neem contact met ons op</h2>
+            <p>Vul het onderstaande formulier in en wij nemen zo snel mogelijk contact met je op.</p>
+            <form action="mailto:info@bijlesplatform.nl" method="post" enctype="text/plain">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" placeholder="Jouw naam" required>
+
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" placeholder="Jouw e-mailadres" required>
+
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Jouw bericht" required></textarea>
+
+                <button type="submit" class="cta-button">Verstuur</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Neem contact met ons op via <a href="mailto:info@bijlesplatform.nl">info@bijlesplatform.nl</a></p>
+            <p>&copy; 2024 Bijles Platform. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+</html>
